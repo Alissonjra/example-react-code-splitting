@@ -1,9 +1,9 @@
 import React, { lazy, Suspense } from "react";
 import { HashRouter, Route, Switch, Redirect } from "react-router-dom";
-// context
+  // context
 import { useUserState } from "../context/UserContext";
 
-// components
+  // components
 const Layout = lazy(() => import(
   /* webpackChunkName: "Layout" */
   /* webpackPrefetch: true */
